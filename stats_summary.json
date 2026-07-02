@@ -1,0 +1,334 @@
+{
+  "Tensile Strength (MPa)": {
+    "means": [
+      12.853333333333333,
+      11.743333333333332,
+      11.173333333333334,
+      8.193333333333333
+    ],
+    "sds": [
+      1.5594977824073146,
+      3.118209956582996,
+      1.2522113772575834,
+      2.1050019794131622
+    ],
+    "F": 2.6207461946642683,
+    "p": 0.12269803903052835,
+    "eta_sq": 0.49565756701748837,
+    "cohen_f": 0.9913525220622078,
+    "significant": false,
+    "levene_p": 0.6654647440144549,
+    "tukey": [
+      {
+        "Group 1": "0 wt.%",
+        "Group 2": "5 wt.%",
+        "Mean Diff": 1.11,
+        "|Diff|": 1.11,
+        "q observed": 0.902,
+        "HSD (\u03b1=0.05)": 5.5706,
+        "p (approx.)": 0.5412,
+        "Significant?": "No"
+      },
+      {
+        "Group 1": "0 wt.%",
+        "Group 2": "10 wt.%",
+        "Mean Diff": 1.68,
+        "|Diff|": 1.68,
+        "q observed": 1.366,
+        "HSD (\u03b1=0.05)": 5.5706,
+        "p (approx.)": 0.3624,
+        "Significant?": "No"
+      },
+      {
+        "Group 1": "0 wt.%",
+        "Group 2": "20 wt.%",
+        "Mean Diff": 4.66,
+        "|Diff|": 4.66,
+        "q observed": 3.789,
+        "HSD (\u03b1=0.05)": 5.5706,
+        "p (approx.)": 0.028,
+        "Significant?": "No"
+      },
+      {
+        "Group 1": "5 wt.%",
+        "Group 2": "10 wt.%",
+        "Mean Diff": 0.57,
+        "|Diff|": 0.57,
+        "q observed": 0.463,
+        "HSD (\u03b1=0.05)": 5.5706,
+        "p (approx.)": 0.7516,
+        "Significant?": "No"
+      },
+      {
+        "Group 1": "5 wt.%",
+        "Group 2": "20 wt.%",
+        "Mean Diff": 3.55,
+        "|Diff|": 3.55,
+        "q observed": 2.886,
+        "HSD (\u03b1=0.05)": 5.5706,
+        "p (approx.)": 0.0756,
+        "Significant?": "No"
+      },
+      {
+        "Group 1": "10 wt.%",
+        "Group 2": "20 wt.%",
+        "Mean Diff": 2.98,
+        "|Diff|": 2.98,
+        "q observed": 2.423,
+        "HSD (\u03b1=0.05)": 5.5706,
+        "p (approx.)": 0.125,
+        "Significant?": "No"
+      }
+    ],
+    "HSD": 5.570598402882264
+  },
+  "Flexural Stress (MPa)": {
+    "means": [
+      4.29135,
+      4.197193333333334,
+      5.53241,
+      5.981999999999999
+    ],
+    "sds": [
+      0.39381076001043974,
+      0.14755502510363172,
+      0.5922598118224803,
+      0.49724359915437805
+    ],
+    "F": 12.360409577278356,
+    "p": 0.0022603146834582533,
+    "eta_sq": 0.8225425476402184,
+    "cohen_f": 2.1529406846170556,
+    "significant": true,
+    "levene_p": 0.7007358640292465,
+    "tukey": [
+      {
+        "Group 1": "0 wt.%",
+        "Group 2": "5 wt.%",
+        "Mean Diff": 0.0942,
+        "|Diff|": 0.0942,
+        "q observed": 0.371,
+        "HSD (\u03b1=0.05)": 1.1509,
+        "p (approx.)": 0.7999,
+        "Significant?": "No"
+      },
+      {
+        "Group 1": "0 wt.%",
+        "Group 2": "10 wt.%",
+        "Mean Diff": -1.2411,
+        "|Diff|": 1.2411,
+        "q observed": 4.884,
+        "HSD (\u03b1=0.05)": 1.1509,
+        "p (approx.)": 0.0087,
+        "Significant?": "Yes"
+      },
+      {
+        "Group 1": "0 wt.%",
+        "Group 2": "20 wt.%",
+        "Mean Diff": -1.6906,
+        "|Diff|": 1.6906,
+        "q observed": 6.653,
+        "HSD (\u03b1=0.05)": 1.1509,
+        "p (approx.)": 0.0015,
+        "Significant?": "Yes"
+      },
+      {
+        "Group 1": "5 wt.%",
+        "Group 2": "10 wt.%",
+        "Mean Diff": -1.3352,
+        "|Diff|": 1.3352,
+        "q observed": 5.254,
+        "HSD (\u03b1=0.05)": 1.1509,
+        "p (approx.)": 0.0059,
+        "Significant?": "Yes"
+      },
+      {
+        "Group 1": "5 wt.%",
+        "Group 2": "20 wt.%",
+        "Mean Diff": -1.7848,
+        "|Diff|": 1.7848,
+        "q observed": 7.024,
+        "HSD (\u03b1=0.05)": 1.1509,
+        "p (approx.)": 0.0011,
+        "Significant?": "Yes"
+      },
+      {
+        "Group 1": "10 wt.%",
+        "Group 2": "20 wt.%",
+        "Mean Diff": -0.4496,
+        "|Diff|": 0.4496,
+        "q observed": 1.769,
+        "HSD (\u03b1=0.05)": 1.1509,
+        "p (approx.)": 0.2463,
+        "Significant?": "No"
+      }
+    ],
+    "HSD": 1.1508787279231225
+  },
+  "Rockwell Hardness (HR)": {
+    "means": [
+      64.74666666666667,
+      65.53333333333333,
+      63.31,
+      62.47333333333333
+    ],
+    "sds": [
+      0.4544593857907755,
+      1.0055015332327066,
+      0.6183041322844269,
+      0.5522982286168726
+    ],
+    "F": 11.999434207686695,
+    "p": 0.002486099833532191,
+    "eta_sq": 0.8181748039569365,
+    "cohen_f": 2.121270333522476,
+    "significant": true,
+    "levene_p": 0.7633531963652257,
+    "tukey": [
+      {
+        "Group 1": "0 wt.%",
+        "Group 2": "5 wt.%",
+        "Mean Diff": -0.7867,
+        "|Diff|": 0.7867,
+        "q observed": 1.974,
+        "HSD (\u03b1=0.05)": 1.8045,
+        "p (approx.)": 0.2002,
+        "Significant?": "No"
+      },
+      {
+        "Group 1": "0 wt.%",
+        "Group 2": "10 wt.%",
+        "Mean Diff": 1.4367,
+        "|Diff|": 1.4367,
+        "q observed": 3.606,
+        "HSD (\u03b1=0.05)": 1.8045,
+        "p (approx.)": 0.0342,
+        "Significant?": "No"
+      },
+      {
+        "Group 1": "0 wt.%",
+        "Group 2": "20 wt.%",
+        "Mean Diff": 2.2733,
+        "|Diff|": 2.2733,
+        "q observed": 5.706,
+        "HSD (\u03b1=0.05)": 1.8045,
+        "p (approx.)": 0.0038,
+        "Significant?": "Yes"
+      },
+      {
+        "Group 1": "5 wt.%",
+        "Group 2": "10 wt.%",
+        "Mean Diff": 2.2233,
+        "|Diff|": 2.2233,
+        "q observed": 5.58,
+        "HSD (\u03b1=0.05)": 1.8045,
+        "p (approx.)": 0.0043,
+        "Significant?": "Yes"
+      },
+      {
+        "Group 1": "5 wt.%",
+        "Group 2": "20 wt.%",
+        "Mean Diff": 3.06,
+        "|Diff|": 3.06,
+        "q observed": 7.68,
+        "HSD (\u03b1=0.05)": 1.8045,
+        "p (approx.)": 0.0006,
+        "Significant?": "Yes"
+      },
+      {
+        "Group 1": "10 wt.%",
+        "Group 2": "20 wt.%",
+        "Mean Diff": 0.8367,
+        "|Diff|": 0.8367,
+        "q observed": 2.1,
+        "HSD (\u03b1=0.05)": 1.8045,
+        "p (approx.)": 0.1759,
+        "Significant?": "No"
+      }
+    ],
+    "HSD": 1.8044621987566385
+  },
+  "Impact Strength (J/mm\u00b2)": {
+    "means": [
+      12.836666666666666,
+      14.200000000000001,
+      14.033333333333333,
+      13.71
+    ],
+    "sds": [
+      0.4254801209614066,
+      0.4293017586733134,
+      0.10214368964029694,
+      0.2705549851693741
+    ],
+    "F": 9.857796916375882,
+    "p": 0.004605718274833648,
+    "eta_sq": 0.7870833629731513,
+    "cohen_f": 1.922673618594944,
+    "significant": true,
+    "levene_p": 0.5287643752783782,
+    "tukey": [
+      {
+        "Group 1": "0 wt.%",
+        "Group 2": "5 wt.%",
+        "Mean Diff": -1.3633,
+        "|Diff|": 1.3633,
+        "q observed": 7.048,
+        "HSD (\u03b1=0.05)": 0.876,
+        "p (approx.)": 0.0011,
+        "Significant?": "Yes"
+      },
+      {
+        "Group 1": "0 wt.%",
+        "Group 2": "10 wt.%",
+        "Mean Diff": -1.1967,
+        "|Diff|": 1.1967,
+        "q observed": 6.187,
+        "HSD (\u03b1=0.05)": 0.876,
+        "p (approx.)": 0.0024,
+        "Significant?": "Yes"
+      },
+      {
+        "Group 1": "0 wt.%",
+        "Group 2": "20 wt.%",
+        "Mean Diff": -0.8733,
+        "|Diff|": 0.8733,
+        "q observed": 4.515,
+        "HSD (\u03b1=0.05)": 0.876,
+        "p (approx.)": 0.0128,
+        "Significant?": "No"
+      },
+      {
+        "Group 1": "5 wt.%",
+        "Group 2": "10 wt.%",
+        "Mean Diff": 0.1667,
+        "|Diff|": 0.1667,
+        "q observed": 0.862,
+        "HSD (\u03b1=0.05)": 0.876,
+        "p (approx.)": 0.5592,
+        "Significant?": "No"
+      },
+      {
+        "Group 1": "5 wt.%",
+        "Group 2": "20 wt.%",
+        "Mean Diff": 0.49,
+        "|Diff|": 0.49,
+        "q observed": 2.533,
+        "HSD (\u03b1=0.05)": 0.876,
+        "p (approx.)": 0.111,
+        "Significant?": "No"
+      },
+      {
+        "Group 1": "10 wt.%",
+        "Group 2": "20 wt.%",
+        "Mean Diff": 0.3233,
+        "|Diff|": 0.3233,
+        "q observed": 1.672,
+        "HSD (\u03b1=0.05)": 0.876,
+        "p (approx.)": 0.2711,
+        "Significant?": "No"
+      }
+    ],
+    "HSD": 0.8760295315116696
+  }
+}
